@@ -48,7 +48,7 @@ else
   exit 14
 fi
 
-CONNECTION_NAME="coex-space"
+CONNECTION_NAME="my-vpn-connection"
 
 apt-get update
 apt-get -y install strongswan xl2tpd

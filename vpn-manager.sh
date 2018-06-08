@@ -8,7 +8,7 @@ then
   exit 1
 fi
 
-CONNECTION_NAME="coex-space"
+CONNECTION_NAME="my-vpn-connection"
 REMOTE_IP="192.168.254.254"
 VPN_SERVER="coex.space"
 
