@@ -43,4 +43,4 @@ sudo nmcli connection add connection.type gsm connection.interface-name cdc-wdm0
   connection.autoconnect yes
 ```
 
-> После включения network-manager Wi-Fi точка доступа настроенная в образе перестанет работать, единственное как можно подключиться к Raspberry по сети - это через Ethernet на котором настроен DHCP сервер.
+> После включения network-manager Wi-Fi точка доступа настроенная в образе перестанет работать, единственное как можно подключиться к Raspberry - это через Ethernet к сети в которой работает DHCP сервер.
