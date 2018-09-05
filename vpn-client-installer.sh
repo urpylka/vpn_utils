@@ -19,7 +19,7 @@ if [[ ! -z $1 ]];
 then
   if check_ip $1
   then VPN_SERVER_IP=$1
-  else echo "Необходимо указать IP адрес"
+  else echo "Необходимо указать IP адрес"; exit 10
   fi
 else
   echo "Необходимо указать VPN_SERVER_IP"
